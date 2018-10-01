@@ -1,0 +1,1 @@
+Sample application demonstrating how to do the most basic stuff in Spring LDAP with Spring Data Ldap and Spring Boot
