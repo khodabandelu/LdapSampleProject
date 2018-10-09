@@ -17,8 +17,8 @@ public class LdapController {
     @Autowired
     private PersonRepository personRepository;
 
-    @GetMapping("/getAll")
-    public String getAll() {
+    @GetMapping("/getFirst")
+    public String getFirst() {
         Iterable<Person> source = personRepository.findAll();
         List<Person> target = new ArrayList<>();
         source.forEach(target::add);
